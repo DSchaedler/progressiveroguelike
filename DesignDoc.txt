@@ -1,0 +1,45 @@
+DeisgnDoc.txt
+
+This is a project to create a user experience based roguelike game, based on a user's gameplay style. The project should avoid strict classes, archetypes and metagames, and instead focus more on an adaptable stats system that progresses as the game does.
+
+The progression system increases a character's skills in a particular category when the character succeeds at an action in that category.
+
+Stats may be hidden or visible, or visible by option.
+
+Actions are categorized into Actives and Passives.
+
+Example Categories:
+Defense   how well a character can deal with being attacked
+Attack    how well a character can deal damage
+Speed     how quickly a character moves. Dodge and
+          intricate task success chance
+Strength  Ability to move or break objects
+Presence  how other characters perceive this character
+
+The first four categories would be on a scale from 0 to 100, with 0 being failing every time, to 100 being succeeding every time.
+
+Presence would be on a scale from 0 to 100, with a normal person starting at 50. Performing unassuming actions would lower the score, while obvious actions will raise it.
+
+Example Actives:
+Parry                 Defense
+Block                 Defense
+Melee Weapon Attack   Attack
+Ranged Weapon Attack  Attack
+Sneak Attack          Attack
+Hide                  Presence
+Intimidate            Presence
+Dodge                 Speed
+Break Object          Strength
+Barter                Presence
+
+Example Passives:
+Reduce Damage         Defense
+Move Speed            Speed
+Armor Use             Defense
+Shield Use            Defense
+Draw Aggression       Presence
+Draw Avoidance        Presence
+
+Enemies and other NPC's will have their own preferences against the character, whether they will run or challenge a strong character, whether they prefer someone with low or high presence when trading, etc.
+
+Most NPC's will have randomly generated stats, with some unique NPC's and bosses having fixed stats.
